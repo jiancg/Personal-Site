@@ -18,7 +18,7 @@ function App() {
       {/* satus bar and logo */}
       <h1 className="logo">
         <TypeAnimation
-          sequence={["Jian Guan", 144]}
+          sequence={["Jason (Jian) Guan", 144]}
           speed={40}
           style={{ fontSize: "1em" }}
         />
