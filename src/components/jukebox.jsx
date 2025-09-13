@@ -1,11 +1,10 @@
 import "../styles/tailwind.css";
 import React, { useState, useEffect } from "react";
-import { getNowPlaying, getTopArtists, getTopTracks } from "./retrieval";
+import { getNowPlaying, getTopArtists, getTopTracks } from "../api/retrieval";
 import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
 
 const MyComponent2 = () => {
-
   const [nowPlayingData, setPlayingData] = useState(null);
   const [topArtistsData, setArtistsData] = useState(null);
   const [topTracksData, setTopTracks] = useState(null);
@@ -118,7 +117,9 @@ const MyComponent2 = () => {
               </p>
               <p>
                 <span className="hover:underline cursor-pointer">
-                  <a href={nowPlayingData.artist[0].url} target="_about">{nowPlayingData.artist[0].name}</a>
+                  <a href={nowPlayingData.artist[0].url} target="_about">
+                    {nowPlayingData.artist[0].name}
+                  </a>
                 </span>
               </p>
             </div>
@@ -139,10 +140,10 @@ const MyComponent2 = () => {
               {Object.keys(topArtistsData).map((key) =>
                 topArtistsData[key].map((artist) => (
                   <li>
-                    <span
-                      className="hover:cursor-pointer hover:underline"
-                    >
-                      <a href={artist.url} target="_about">{artist.name}</a>
+                    <span className="hover:cursor-pointer hover:underline">
+                      <a href={artist.url} target="_about">
+                        {artist.name}
+                      </a>
                     </span>
                   </li>
                 ))
@@ -159,10 +160,10 @@ const MyComponent2 = () => {
               {Object.keys(topTracksData).map((key) =>
                 topTracksData[key].map((track) => (
                   <li>
-                    <span
-                      className="hover:cursor-pointer hover:underline"
-                    >
-                      <a href={track.url} target="_about">{track.name}</a>
+                    <span className="hover:cursor-pointer hover:underline">
+                      <a href={track.url} target="_about">
+                        {track.name}
+                      </a>
                     </span>
                   </li>
                 ))
@@ -178,7 +179,9 @@ const MyComponent2 = () => {
             <span>Spotify Offline - Not Listening</span>
           </p>
           <p className="mt-4">
-            <span className="underline underline-offset-4">My Favorite Artists</span>
+            <span className="underline underline-offset-4">
+              My Favorite Artists
+            </span>
           </p>
 
           {/* offline top artists data */}
@@ -187,10 +190,10 @@ const MyComponent2 = () => {
               {Object.keys(topArtistsData).map((key) =>
                 topArtistsData[key].map((artist) => (
                   <li>
-                    <span
-                      className="hover:cursor-pointer hover:underline"
-                    >
-                      <a href={artist.url} target="_about">{artist.name}</a>
+                    <span className="hover:cursor-pointer hover:underline">
+                      <a href={artist.url} target="_about">
+                        {artist.name}
+                      </a>
                     </span>
                   </li>
                 ))
@@ -208,10 +211,10 @@ const MyComponent2 = () => {
               {Object.keys(topTracksData).map((key) =>
                 topTracksData[key].map((track) => (
                   <li>
-                    <span
-                      className="hover:cursor-pointer hover:underline"
-                    >
-                      <a href={track.url} target="_about">{track.name}</a>
+                    <span className="hover:cursor-pointer hover:underline">
+                      <a href={track.url} target="_about">
+                        {track.name}
+                      </a>
                     </span>
                   </li>
                 ))
