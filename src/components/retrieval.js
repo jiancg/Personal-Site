@@ -1,6 +1,6 @@
 const getNowPlaying = async () => {
   try {
-    const response = await fetch("https://example.com/now-playing");
+    const response = await fetch("https://api.yourdomain.com/now-playing");
     if (!response.ok) {
       throw new Error("Unknown Error Getting Now Playing");
     }
@@ -13,7 +13,7 @@ const getNowPlaying = async () => {
 
 const getTopArtists = async () => {
   try {
-    const response = await fetch("https://example.com/top-artists");
+    const response = await fetch("https://api.yourdomain.com/top-artists");
     if (!response.ok) {
       throw new Error("Unknown Error Getting Top Artists");
     }
@@ -26,7 +26,7 @@ const getTopArtists = async () => {
 
 const getTopTracks = async () => {
   try {
-    const response = await fetch("https://example.com/top-tracks");
+    const response = await fetch("https://api.yourdomain.com/top-tracks");
     if (!response.ok) {
       throw new Error("Unknown Error Getting Top Tracks");
     }
