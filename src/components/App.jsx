@@ -132,7 +132,7 @@ function App() {
             Personal Site
           </a>
         </span>{" "}
-        (May. 2024 - Present){" "}
+        (May 2024 - Present){" "}
       </p>
       <p className="text-under-headers mt-2 mb-4">
         Built a minimalist portfolio with React and Tailwind, integrating an
@@ -179,12 +179,13 @@ function App() {
       <h3 className="sub">About</h3>
       <p className="text-under-headers mb-2">
         I'm a third-year Computer Science student who enjoys turning ideas into
-        projects and picking up new skills along the way.
+        projects and picking up new skills along the way. Whether it’s through
+        school, side projects, or just messing around with new tools, I’m always
+        looking for ways to grow and learn.
       </p>
       <p className="text-under-headers mb-2">
         I’ve built a solid work ethic around problem-solving, teamwork, and
-        adapting to whatever challenge comes next. Whether it’s a group project
-        deadline or debugging a stubborn API I love the hustle.
+        adapting to whatever challenge comes next.
       </p>
       <p className="text-under-headers">
         When I’m not trying to locate an unnecessary comma, I enjoy lifting
