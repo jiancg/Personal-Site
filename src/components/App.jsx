@@ -71,7 +71,7 @@ function App() {
         near-perfect uptime
       </p>
       <p className="text-under-headers">
-        I’m actively seeking internships for Fall 2025, <b>let's connect!</b>
+        I’m actively seeking internships for Winter 2026, <b>let's connect!</b>
       </p>
 
       <div className="mt-2">
@@ -110,11 +110,7 @@ function App() {
       <p className="mt-4 sub-vals text-under-headers">
         {" "}
         <span id="highlight-effect">
-          <a
-            title="View on Github"
-            href="https://github.com/jiancg/Apple-Store-Monitor"
-            target="_about"
-          >
+          <a title="View on Github" href="https://mactracc.xyz" target="_about">
             Mactracc
           </a>
         </span>{" "}
@@ -183,9 +179,7 @@ function App() {
       <h3 className="sub">About</h3>
       <p className="text-under-headers mb-2">
         I'm a third-year Computer Science student who enjoys turning ideas into
-        projects and picking up new skills along the way. Whether it’s through
-        school, side projects, or just messing around with new tools, I’m always
-        looking for ways to grow and learn.
+        projects and picking up new skills along the way.
       </p>
       <p className="text-under-headers mb-2">
         I’ve built a solid work ethic around problem-solving, teamwork, and
