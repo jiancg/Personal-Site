@@ -6,7 +6,7 @@ A responsive portfolio site featuring a real‑time Spotify stats built with Rea
 
 - [React](https://react.dev/)
 - [Material UI](https://mui.com/material-ui/)
-- [Tailwind]()
+- [Tailwind](https://tailwindcss.com/)
 - [Vite](https://vite.dev/)
 - [Node-Fetch](https://www.npmjs.com/package/node-fetch)
 
