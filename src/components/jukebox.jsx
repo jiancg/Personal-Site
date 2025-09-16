@@ -180,7 +180,7 @@ const MyComponent2 = () => {
           </p>
           <p className="mt-4">
             <span className="underline underline-offset-4">
-              My Favorite Artists
+              Currently Listening To
             </span>
           </p>
 
