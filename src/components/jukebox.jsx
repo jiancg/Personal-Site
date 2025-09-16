@@ -133,7 +133,7 @@ const MyComponent2 = () => {
           </div>
 
           <p className="mt-2">
-            <span id="norm-high">My Favorite Artists</span>
+            <span id="norm-high">Currently Listening To</span>
           </p>
           <div className="flex mt-2 gimme-top sm:text-xs sm:mb-3 sm2:text-base md:mb-5 md:text-base">
             <ol className="columns-2 md:gap-24 sm:gap-10 list-decimal list-inside">
