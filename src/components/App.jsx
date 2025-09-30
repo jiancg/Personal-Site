@@ -189,7 +189,7 @@ function App() {
       </p>
       <p className="text-under-headers">
         When I’m not trying to locate an unnecessary comma, I enjoy lifting
-        weights at the gym or trying out new recipes.
+        weights at the gym and trying out new recipes.
       </p>
       {/* social links */}
       <div className="mt-2">
