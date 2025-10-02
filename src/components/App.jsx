@@ -39,7 +39,7 @@ function App() {
             </a>
           </span>
         </span>{" "}
-        <span className="leftover">(Sept. 2022 - Present)</span>
+        <span className="leftover">(Expected. May 2027)</span>
       </p>
 
       <h3 className="sub">Experience</h3>
